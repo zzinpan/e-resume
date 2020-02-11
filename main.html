@@ -45,7 +45,10 @@ var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 // var cube = new THREE.Mesh( geometry, material );
 // scene.add( cube );
 
-new THREE.OBJLoader().load( "model/gameboy/gameboy-color.obj" function( model ){
+var light = new THREE.AmbientLight( 0x404040 ); // soft white light
+scene.add( light );
+
+new THREE.OBJLoader().load( "model/gameboy/gameboy-color.obj", function( model ){
 	
 	console.log( model );
 	scene.add( model );
