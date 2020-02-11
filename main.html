@@ -42,8 +42,15 @@ document.body.appendChild( renderer.domElement );
 
 var geometry = new THREE.BoxGeometry();
 var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-var cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+// var cube = new THREE.Mesh( geometry, material );
+// scene.add( cube );
+
+new THREE.OBJLoader().load( "model/gameboy/gameboy-color.obj" function( model ){
+	
+	console.log( model );
+	scene.add( model );
+	
+});
 
 camera.position.z = 5;
 
