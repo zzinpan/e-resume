@@ -1,0 +1,82 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 11.02.2020 22:46:52
+
+newmtl wire_204204204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8000 0.8000 0.8000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl animation_yellow
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\yellow_1.jpg
+	map_Kd maps\yellow_1.jpg
+
+newmtl yellow_logo
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3147 0.3147 0.3147
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\lpokemon_y_label.jpg
+	map_Kd maps\lpokemon_y_label.jpg
+
+newmtl black_screen
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1858 0.1858 0.1858
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\screen_pika_2.jpg
+	map_Kd maps\screen_pika_2.jpg
+
+newmtl white_label
+	Ns 59.3487
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1366 0.1366 0.1366
+	Kd 0.7623 0.7623 0.7623
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\label_GB2.jpg
+	map_Kd maps\label_GB2.jpg
+
+newmtl yellow_label
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\yellow-game_1.jpg
+	map_Kd maps\yellow-game_1.jpg
